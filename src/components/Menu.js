@@ -1,6 +1,6 @@
 
 
-class Hero extends HTMLElement {
+class Menu extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <header>
@@ -14,4 +14,4 @@ class Hero extends HTMLElement {
   }
 }
 
-customElements.define("my-menu", Hero);
+customElements.define("my-menu", Menu);
